@@ -4187,7 +4187,7 @@
 			}
 
 				.carousel article .content h3 {
-					color: #555 !important;
+					color: #555;
 				}
 
 		.carousel nav a {
@@ -5382,10 +5382,75 @@
 }
 
 .testimonialquote {
-	color: #1E2949;
+	color: #1E2949 !important;
 }
 
 .thirdfont {
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
+.socialicons {
+	text-align: center;
+}
+
+.icon {
+	color: #fff;
+}
+
+ul.icons li .icon:before {
+	font-size: 4rem;
+}
+
+.iconroom {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+
+.reduce {
+	margin-top: -50px !important;
+}
+
+.footeraddress {
+    color: #1E2949 !important;
+    font-size: 24px;
+    margin-top: -30px !important;
+}
+
+
+#six {
+	padding-bottom: 0;
+}
+
+.rightsreserved {
+	color: #1E2949 !important;
+	padding-bottom: 30px;
+}
+
+.rbca {
+    color: #FFDD86 !important;
+    font-size: 20px;
+}
+
+.lildiff {
+	margin-bottom: 3rem !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
