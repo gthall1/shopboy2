@@ -5723,6 +5723,10 @@ ul.icons li .icon:before {
 	    line-height: 34px;
 	}
 
+	.contentheaders {
+		font-size: 38px;
+	}
+
 	.transform {
 	    font-size: 36px;
 	    padding-top: 30px !important;
@@ -5755,7 +5759,7 @@ ul.icons li .icon:before {
 	}
 
 	.contentheaders {
-		font-size: 40px;
+		font-size: 34px;
 	}
 
 	.press {
