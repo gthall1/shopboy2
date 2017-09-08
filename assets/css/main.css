@@ -4565,7 +4565,7 @@
 		transition: background-color 0.2s ease;
 		background-color: #fff;
 		box-shadow: 0 0 0.5rem 0 rgba(144, 144, 144, 0.25);
-		height: 6.5rem;
+		height: 5rem;
 		left: 0;
 		line-height: 3.5rem;
 		padding: 0 0 0 1.5rem;
@@ -5099,9 +5099,7 @@
 				font-size: 2.5rem;
 			}
 
-				#banner h1 br {
-					display: none;
-				}
+				
 
 		}
 
@@ -5238,7 +5236,7 @@
 .shopboy {
     font-size: 42px !important;
     font-weight: 900;
-    margin-top: 40px;
+    margin-top: 22px;
     margin-left: 20px;
     text-transform: lowercase !important;
 }
@@ -5273,14 +5271,15 @@
 .newinner {
 	right: 35px;
     position: absolute !important;
-    bottom: 270px;
+    bottom: 190px;
 }
 
 .topheader {
 	text-align: right;
-	font-weight: 800;
+	font-weight: 600;
 	text-transform: lowercase;
-	letter-spacing: 16px;
+	letter-spacing: 6px;
+	font-size: 76px;
 }
 
 .newbutton {
@@ -5348,8 +5347,9 @@
 
 .contentheaders {
     text-align: center;
-    font-size: 60px;
-    font-weight: 700;
+    font-size: 52px;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 
@@ -5590,6 +5590,7 @@ ul.icons li .icon:before {
 	text-align: center;
 	font-size: 124px;
 	margin-top: -40px;
+	font-weight: 800;
 }
 
 .presspress {
