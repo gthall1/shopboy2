@@ -5741,6 +5741,10 @@ ul.icons li .icon:before {
 	.smallerinner {
 		width: 90% !important;
 	}
+
+	.newinner {
+		bottom: 250px;
+	}
 }
 
 @media screen and (max-width: 350px) {
