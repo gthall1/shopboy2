@@ -5779,6 +5779,43 @@ ul.icons li .icon:before {
 	}
 }
 
+@media screen and (min-width: 1800px) {
+	.newinner {
+		bottom: 240px;
+	}
+
+	.transform {
+		margin-left: -215px;
+		margin-top: -390px;
+	}
+
+	.collab {
+		margin-right: -190px;
+	}
+
+	.ciao {
+		margin-left: -215px;
+	}
+}
+
+@media screen and (min-width: 2400px) {
+	.newinner {
+		bottom:	425px;
+	}
+
+	.transform {
+		margin-left: -500px;
+	}
+
+	.collab {
+		margin-right: -490px;
+	}
+
+	.ciao {
+		margin-left: -500px;
+	}
+}
+
 
 
 
