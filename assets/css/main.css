@@ -4356,7 +4356,8 @@
 			height: 100%;
 			position: absolute;
 			top: 0;
-			width: 55%;
+			/* width: 55%; */
+			width: 100%;
 		}
 
 			.spotlight .image img {
@@ -4592,7 +4593,7 @@
 			    font-weight: 600;
 			    height: inherit;
 			    line-height: inherit;
-			    color: #FCC53A;
+			    color: #1E2949;
 			    letter-spacing: 20px;
 		}
 
@@ -4643,7 +4644,7 @@
 						}
 
 		#header.alt {
-			background-color: transparent;
+			background-color: #ffffff;
 			box-shadow: none;
 			color: #fff;
 		}
@@ -4691,7 +4692,7 @@
 /* Menu */
 
 	#menu {
-		background-color: #FCC53A;
+		background-color: #C27F6F;
 		color: #ffffff;
 		-moz-transform: translateX(20rem);
 		-webkit-transform: translateX(20rem);
@@ -4702,7 +4703,7 @@
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #FCC53A;
+		background: #C27F6F;
 		box-shadow: none;
 		height: 100%;
 		max-width: 80%;
@@ -4790,7 +4791,7 @@
 			#menu .button.special {
 				box-shadow: none;
 				background-color: #ffffff;
-				color: #FCC53A;
+				color: #C27F6F;
 			}
 
 				#menu input[type="submit"].special.icon:before,
@@ -4916,7 +4917,7 @@
 		justify-content: center;
 		background-color: #1e2731;
 		color: #ffffff;
-		background-image: url("../../images/bg3.jpg");
+		background-image: url("../../images/bg5.jpg");
 		background-position: center;
 		background-size: cover;
 		background-attachment: fixed;
@@ -5234,7 +5235,7 @@
 
 
 .shopboy {
-    font-size: 42px !important;
+    font-size: 24px !important;
     font-weight: 900;
     margin-top: 22px;
     margin-left: 20px;
@@ -5249,7 +5250,7 @@
     display: block;
     height: 20px;
     position: absolute;
-    right: 5rem;
+    right: 3rem;
     text-align: center;
     top: -30px;
     width: 1rem;
@@ -5262,8 +5263,8 @@
 }
 
 #header a {
-	font-size: 3.5rem;
-	color: #FCC53A;
+	font-size: 2rem;
+	color: #1E2949;
 }
 
 
@@ -5310,6 +5311,7 @@
 	background-image: url(../../images/bgtest2.png);
     background-size: cover;
     background-position: left;
+    min-height: 500px;
 }
 
 .spotlight.accent3 {
@@ -5323,7 +5325,7 @@
 }
 
 .wrapper.style1 {
-    background-color: #FCC53A;
+    background-color: #C27F6F;
 }
 
 .defaultfont {
@@ -5438,7 +5440,7 @@ ul.icons li .icon:before {
 }
 
 .rbca {
-    color: #FFDD86 !important;
+    color: #F1A492 !important;
     font-size: 20px;
 }
 
@@ -5815,6 +5817,177 @@ ul.icons li .icon:before {
 		margin-left: -500px;
 	}
 }
+
+/* redesign to new white site */
+
+#first, #second {
+	text-align: center;
+}
+
+.newaboutheader {
+    color: #1E2949 !important;
+    text-align: center;
+    font-size: 48px;
+    text-transform: lowercase;
+}
+
+.newaboutheader:after {
+				content: '';
+				background-color: #C27F6F;
+				display: block;
+				height: 3px;
+				margin: 2rem auto;
+				width: 2rem;
+				margin-top: 10px;
+			}
+
+.accent2 {
+	min-height: 500px;
+	background-size: cover;
+	background-image: url(../../images/bgtest1.png);
+}
+
+.newaddress {
+	text-align: center;
+	margin-top: 30px !important;
+}
+
+.newcenterlogo {
+	width: 40%;
+	margin: auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.brandnewfont {
+	font-family: 'Muli', sans-serif;
+}
+
+.darkbluecol {
+	color: #1E2949 !important;
+	font-size: 22px;
+}
+
+.redcol {
+	color: #C27F6F !important;
+}
+
+.newdes {
+    font-size: 50px;
+    text-transform: lowercase;
+    margin-bottom: 0;
+}
+
+.tangerine {
+	font-family: 'Tangerine', cursive;
+}
+
+.crimson {
+	font-family: 'Crimson Text', serif;
+}
+
+
+/* white site responsive review */
+
+@media screen and (max-width: 1280px) {
+	
+
+}
+
+@media screen and (max-width: 980px) {
+	.accent1, .accent2 {
+		min-height: 0 !important;
+	}
+
+	.ipadimage {
+		min-height: 0 !important;
+		height: 300px !important;
+	}
+
+	.darkbluecol {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.shopboy {
+		font-size: 22px !important;
+	}
+
+	#header a {
+		font-size: 18px;
+	}
+
+	#header nav ul li a[href="#menu"]:only-child {
+		margin-right: -10px;
+	}
+
+	.darkbluecol {
+		font-size: 16px;
+	}
+
+	.ipadimage {
+		height: 385px !important;
+	}
+
+	.footeraddress {
+		font-size: 20px;
+	}
+}
+
+
+@media screen and (max-width: 380px) {
+	.ipadimage {
+		height: 350px !important;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.shopboy {
+		font-size: 18px !important;
+	}
+
+	#header nav ul li a[href="#menu"]:only-child {
+		margin-right: -15px;
+	}
+}
+
+@media screen and (min-width: 1800px) {
+	
+}
+
+@media screen and (min-width: 2400px) {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
