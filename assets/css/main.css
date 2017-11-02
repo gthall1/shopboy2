@@ -5239,7 +5239,7 @@
     font-weight: 900;
     margin-top: 22px;
     margin-left: 20px;
-    text-transform: lowercase !important;
+    text-transform: none !important;
 }
 
 
