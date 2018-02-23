@@ -5890,6 +5890,16 @@ ul.icons li .icon:before {
 	background-color: #C27F6F !important;
 }
 
+.partnerlist {
+	list-style: none;
+	padding-left: 0;
+}
+
+.actualpartner {
+	color: #C27F6F;
+	font-size: 28px;
+}
+
 
 /* white site responsive review */
 
@@ -5935,6 +5945,10 @@ ul.icons li .icon:before {
 	}
 
 	.footeraddress {
+		font-size: 20px;
+	}
+
+	.actualpartner {
 		font-size: 20px;
 	}
 }
