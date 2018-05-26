@@ -5855,7 +5855,7 @@ ul.icons li .icon:before {
 .newcenterlogo {
 	width: 40%;
 	margin: auto;
-    margin-top: 80px;
+    margin-top: 0px;
     margin-bottom: 30px;
 }
 
@@ -5898,6 +5898,23 @@ ul.icons li .icon:before {
 .actualpartner {
 	color: #C27F6F;
 	font-size: 28px;
+}
+
+#header {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+#header.alt {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.underlogofont {
+	margin-left: 0;
+	margin-top: 0;
+    font-size: 56px !important;
+    letter-spacing: 14px;
 }
 
 
