@@ -4922,7 +4922,7 @@
 		background-size: cover;
 		background-attachment: fixed;
 		cursor: default;
-		min-height: 100vh;
+		height: 100vh;
 		position: relative;
 		text-align: center;
 	}
